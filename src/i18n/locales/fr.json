@@ -1,0 +1,350 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "certifications": "Certifications",
+    "experience": "Expériences",
+    "projects": "Projets",
+    "contact": "Contact",
+    "downloadCV": "Télécharger CV"
+  },
+  "contact": {
+    "eyebrow": "Restons en contact",
+    "headingStart": "Travaillons",
+    "headingAccent": "ensemble",
+    "intro": "Vous souhaitez discuter d'une opportunité de stage, d'un projet d'intelligence artificielle ou d'une collaboration ? N'hésitez pas à me contacter, je serai ravi d'échanger avec vous.",
+    "info": {
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "location": "Localisation"
+    },
+    "locationValue": "Sfax, Tunisie",
+    "opportunityTitle": "Vous avez une opportunité à proposer ?",
+    "opportunityDescription": "Échangeons sur la manière dont mes compétences en intelligence artificielle, en machine learning et en génie logiciel peuvent contribuer à votre équipe.",
+    "sendEmail": "M’envoyer un e-mail"
+  },
+  "hero": {
+    "availability": "À la recherche d’opportunités de stage",
+    "greeting": "Bonjour, je suis",
+    "title": "Élève ingénieur en informatique",
+    "specialties": {
+      "ai": "Intelligence artificielle",
+      "ml": "Machine Learning",
+      "software": "Génie logiciel"
+    },
+    "description": "Élève ingénieur en troisième année d’informatique, je m’intéresse particulièrement au développement logiciel, à l’intelligence artificielle, au machine learning et à la science des données. J’aime concevoir et développer des applications intelligentes alliant une ingénierie logicielle robuste à des solutions fondées sur les données.",
+    "expertise": {
+      "softwareEngineering": "Génie logiciel",
+      "fullStack": "Développement full-stack",
+      "aiMl": "IA et Machine Learning",
+      "dataScience": "Science des données"
+    },
+    "location": "Sfax, Tunisie",
+    "exploreProjects": "Découvrir mes projets",
+    "scrollToAbout": "Aller à la section À propos"
+  },
+  "about": {
+    "eyebrow": "Faisons connaissance",
+    "headingStart": "À propos de",
+    "headingAccent": "moi.",
+    "headlineStart": "Développer des logiciels.",
+    "headlineAccent": "Créer des solutions intelligentes.",
+    "paragraphs": {
+      "intro": "Je suis élève ingénieur en troisième année d’informatique à l’Institut Supérieur d’Informatique et de Multimédia de Sfax (ISIMS), Université de Sfax, Tunisie.",
+      "background": "Mon parcours associe le génie logiciel, l’intelligence artificielle et la science des données. Je suis titulaire d’une licence en informatique, spécialisée en Big Data et analyse des données, et je poursuis actuellement un cycle d’ingénieur en technologies du Web et du multimédia.",
+      "interests": "J’aime développer des applications full-stack, concevoir des services backend, travailler avec les bases de données et créer des solutions de machine learning. Mon expérience couvre le développement Web, le deep learning, la vision par ordinateur, le traitement des données et l’intégration de modèles d’IA dans des applications concrètes.",
+      "motivation": "Je souhaite contribuer à la résolution de problèmes concrets, explorer les technologies émergentes et participer à des projets innovants en développement logiciel et en intelligence artificielle."
+    },
+    "connect": "Échangeons",
+    "educationTitle": "Formation",
+    "education": {
+      "engineeringPeriod": "2024 — Aujourd’hui",
+      "bachelorPeriod": "2021 — 2024",
+      "engineering": {
+        "degree": "Cycle ingénieur — Technologies du Web et du multimédia",
+        "institution": "ISIMS — Université de Sfax"
+      },
+      "bachelor": {
+        "degree": "Licence en informatique",
+        "specialization": "Big Data et analyse des données",
+        "institution": "ISIMS — Université de Sfax"
+      }
+    },
+    "highlights": {
+      "software": {
+        "title": "Génie logiciel",
+        "description": "Développement full-stack, API REST, services backend, applications frontend et architecture logicielle."
+      },
+      "ai": {
+        "title": "Intelligence artificielle",
+        "description": "Machine learning, deep learning, vision par ordinateur, traitement automatique du langage et applications intelligentes."
+      },
+      "data": {
+        "title": "Science et ingénierie des données",
+        "description": "Prétraitement des données, ingénierie des caractéristiques, analyse, bases de données et solutions fondées sur les données."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Mes outils et technologies",
+    "headingStart": "Compétences",
+    "headingAccent": "techniques.",
+    "intro": "Technologies, frameworks et outils que j’utilise pour développer des logiciels, concevoir des applications intelligentes et travailler sur des systèmes fondés sur les données.",
+    "count": "{{count}} technologies et compétences",
+    "categories": {
+      "programming": {
+        "title": "Langages de programmation",
+        "description": "Langages utilisés dans les projets logiciels, d’IA et de systèmes embarqués."
+      },
+      "frontend": {
+        "title": "Développement frontend et mobile",
+        "description": "Création d’applications web et mobiles interactives."
+      },
+      "backend": {
+        "title": "Développement backend et API",
+        "description": "Développement de services sécurisés et de systèmes backend."
+      },
+      "ai-ml": {
+        "title": "Intelligence artificielle et machine learning",
+        "description": "Entraînement, évaluation et intégration de modèles intelligents."
+      },
+      "computer-vision": {
+        "title": "Vision par ordinateur et traitement du signal",
+        "description": "Extraction d’informations à partir d’images et de signaux physiologiques."
+      },
+      "data": {
+        "title": "Science des données et bases de données",
+        "description": "Préparation, analyse, visualisation et stockage des données."
+      },
+      "iot": {
+        "title": "IoT et systèmes embarqués",
+        "description": "Connexion de matériels, capteurs et applications intelligentes."
+      },
+      "tools": {
+        "title": "Outils et pratiques de développement",
+        "description": "Outils et méthodes utilisés tout au long du développement."
+      }
+    }
+  },
+  "certifications": {
+    "eyebrow": "Apprentissage continu",
+    "headingStart": "Certifications",
+    "headingAccent": "et formations.",
+    "intro": "Certifications professionnelles, cours et formations témoignant de mon engagement envers l’apprentissage continu en intelligence artificielle, en génie logiciel et en technologie.",
+    "types": {
+      "certification": "Certification professionnelle",
+      "course": "Formation suivie",
+      "language": "Certification linguistique",
+      "participation": "Formation et participation"
+    },
+    "viewCertificate": "Voir le certificat",
+    "preview": "Aperçu",
+    "verify": "Vérifier la certification",
+    "showLess": "Voir moins",
+    "viewAll": "Voir toutes les certifications",
+    "closePreview": "Fermer l’aperçu du certificat",
+    "certificate": "Certificat",
+    "fullPreview": "Aperçu complet de {{title}}",
+    "previewLabel": "Aperçu de {{title}}",
+    "imageAlt": "Certificat {{title}}",
+    "items": {
+      "microsoft-ai-900": {
+        "date": "juin 2026",
+        "description": "Connaissances fondamentales en intelligence artificielle et services Azure AI."
+      },
+      "nvidia-genai": {
+        "date": "juin 2025",
+        "description": "Formation couvrant les fondamentaux de l’intelligence artificielle et de l’IA générative."
+      },
+      "datacamp-ai-agents": {
+        "date": "juin 2026",
+        "description": "Introduction aux agents IA et à leurs applications."
+      },
+      "datacamp-ai-software": {
+        "date": "juin 2026",
+        "description": "Utilisation des concepts et outils d’IA dans les processus de génie logiciel."
+      },
+      "ef-set-c1": {
+        "date": "décembre 2025",
+        "description": "Évaluation du niveau d’anglais — C1 avancé (66/100)."
+      },
+      "international-english-test": {
+        "date": "décembre 2025"
+      },
+      "spectrum-ai": {
+        "date": "Non précisé",
+        "description": "Attestation de réussite pour la participation à une formation en intelligence artificielle."
+      },
+      "spectrum-big-data": {
+        "date": "Non précisé",
+        "description": "Attestation de réussite pour la participation à une formation en Big Data."
+      },
+      "web-4": {
+        "date": "décembre 2023"
+      },
+      "digital-marketing-ml-iot": {
+        "date": "mars 2023"
+      },
+      "scrum-agile": {
+        "date": "décembre 2021"
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "Mon parcours",
+    "title": "Expériences professionnelles et de recherche",
+    "intro": "Un parcours mêlant stages professionnels et recherche universitaire, à la croisée de l’intelligence artificielle, du développement full-stack et du machine learning appliqué.",
+    "internship": "Stage",
+    "research": "Recherche universitaire",
+    "projectLabel": "Projet",
+    "contributions": "Principales contributions",
+    "viewProject": "Voir les détails du projet",
+    "items": {
+      "novaskills": {
+        "role": "Stagiaire en IA et développement full-stack",
+        "period": "Juillet – Août 2026",
+        "description": "Développement de ConsultDiag, une plateforme intelligente de diagnostic d’entreprise et de consultation destinée aux entreprises, consultants et administrateurs.",
+        "highlights": [
+          "Développement d’API REST et d’une architecture full-stack avec Angular et FastAPI.",
+          "Création de questionnaires versionnés, suivi des réponses et calcul des scores de diagnostic.",
+          "Intégration de Gemini pour générer et enregistrer des analyses de diagnostic assistées par IA.",
+          "Mise en place de l’authentification JWT, des permissions par rôle, de PostgreSQL et du stockage MinIO."
+        ]
+      },
+      "mega-pixel": {
+        "role": "Stagiaire en développement full-stack et IA",
+        "period": "Juillet – Août 2025",
+        "description": "Développement d’une plateforme éducative utilisant l’IA pour traiter des documents PDF et des images et produire des supports pédagogiques.",
+        "highlights": [
+          "Développement d’une application full-stack avec Flask et Angular.",
+          "Intégration de l’API Gemini pour le traitement intelligent de contenus éducatifs.",
+          "Mise en place de la génération automatique de résumés et de quiz.",
+          "Développement d’API REST, de l’authentification JWT et des intégrations PostgreSQL et Supabase."
+        ]
+      },
+      "ecg-pfe": {
+        "role": "Projet de fin d’études de licence — Recherche",
+        "period": "2024",
+        "description": "Conception d’un système d’identification biométrique à partir de signaux ECG, utilisant le machine learning et le deep learning.",
+        "highlights": [
+          "Prétraitement des signaux ECG : filtrage, détection des pics R, normalisation et segmentation.",
+          "Extraction de caractéristiques cepstrales, d’entropie et de passages par zéro.",
+          "Entraînement et évaluation de modèles SVM et CNN 1D sur le jeu de données ECG-ID.",
+          "Intégration du modèle entraîné dans une API Flask et une interface React."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Réalisations",
+    "title": "Projets à découvrir",
+    "intro": "Découvrez sept projets en vision par ordinateur, deep learning, IA générative, machine learning, IoT et génie logiciel. Chaque projet présente l’approche technique et mes contributions.",
+    "featured": "Projet à la une",
+    "contributions": "Principales contributions",
+    "github": "Dépôt GitHub",
+    "linkedin": "Publication LinkedIn",
+    "galleryEmpty": "Des captures d’écran et des vidéos de démonstration seront ajoutées ici.",
+    "gallery": "Galerie multimédia",
+    "videoUnsupported": "Votre navigateur ne prend pas en charge la lecture vidéo.",
+    "previousMedia": "Média précédent",
+    "nextMedia": "Média suivant",
+    "viewMedia": "Voir le média",
+    "categories": {
+      "Academic Project": "Projet universitaire",
+      "Academic Research": "Recherche universitaire",
+      "Internship Project": "Projet de stage"
+    },
+    "items": {
+      "visiontouch": {
+        "subtitle": "Détection d’objets en temps réel pour l’accessibilité",
+        "description": "Une solution mobile d’accessibilité fondée sur l’IA, utilisant la vision par ordinateur pour détecter des objets en temps réel. Le projet associe un modèle YOLOv8 affiné, une API d’inférence Flask et une application mobile Flutter.",
+        "contributions": [
+          "Préparation et annotation d’un jeu d’images personnalisé comportant 28 classes d’objets.",
+          "Affinage de YOLOv8 pour la détection d’objets en temps réel.",
+          "Développement d’une API REST Flask pour exposer les prédictions du modèle.",
+          "Contribution à l’intégration de la chaîne de vision par ordinateur avec l’application mobile."
+        ]
+      },
+      "ecg-biometric-identification": {
+        "subtitle": "Reconnaissance biométrique à partir des signaux ECG",
+        "description": "Un système d’identification biométrique fondé sur les signaux électrocardiographiques, combinant traitement du signal, extraction de caractéristiques, machine learning et deep learning. Les approches SVM et CNN 1D sont évaluées sur le jeu de données ECG-ID.",
+        "contributions": [
+          "Prétraitement des signaux ECG par filtrage, détection des pics R, normalisation et segmentation.",
+          "Extraction de coefficients cepstraux, d’entropie et de caractéristiques de passages par zéro.",
+          "Entraînement et évaluation de modèles SVM et CNN 1D.",
+          "Intégration du modèle entraîné à une API Flask et à une interface React."
+        ]
+      },
+      "consultdiag": {
+        "subtitle": "Plateforme intelligente de diagnostic d’entreprise",
+        "description": "Une plateforme full-stack de consultation et de diagnostic d’entreprise développée lors d’un stage chez NovaSkills. Elle propose des questionnaires versionnés, un système de notation, des processus de consultation et des analyses assistées par Gemini.",
+        "contributions": [
+          "Développement du frontend Angular et du backend FastAPI.",
+          "Mise en place de la gestion des questionnaires, du suivi des réponses et de la notation.",
+          "Intégration de Gemini pour l’analyse des diagnostics assistée par IA.",
+          "Mise en place de l’authentification, des permissions par rôle, de PostgreSQL et du stockage de fichiers."
+        ]
+      },
+      "iot-smart-environment": {
+        "subtitle": "Surveillance et prédiction environnementales connectées",
+        "description": "Un système intelligent de surveillance environnementale IoT associant acquisition de données par capteurs ESP32, stockage cloud, API backend et machine learning. La plateforme collecte des mesures, intègre des données météorologiques et prédit les conditions de pluie. Une application Flutter permet la consultation et les notifications.",
+        "contributions": [
+          "Configuration du matériel ESP32 et des capteurs de température, d’humidité, de pluie et de qualité de l’air.",
+          "Développement de services backend pour traiter les mesures et intégrer les données météorologiques externes.",
+          "Mise en place d’un pipeline de prédiction de pluie avec Scikit-learn et optimisation des hyperparamètres par GridSearchCV.",
+          "Intégration de Supabase et PostgreSQL pour stocker et consulter les données environnementales."
+        ]
+      },
+      "ai-educational-platform": {
+        "subtitle": "IA générative appliquée aux contenus éducatifs",
+        "description": "Une plateforme éducative full-stack développée lors d’un stage chez MEGA PIXEL. Elle utilise Gemini pour traiter des documents PDF et des images importés, puis générer automatiquement des résumés pédagogiques et des quiz.",
+        "contributions": [
+          "Développement de l’application avec Flask et Angular.",
+          "Intégration de l’API Gemini pour traiter les contenus éducatifs.",
+          "Mise en place de la génération automatique de résumés et de quiz.",
+          "Développement d’API REST, de l’authentification JWT et de l’intégration de la base de données et du stockage."
+        ]
+      },
+      "customer-churn-prediction": {
+        "subtitle": "Analyse prédictive par machine learning",
+        "description": "Une solution complète de machine learning permettant d’identifier les clients susceptibles de se désabonner à partir de données comportementales et d’abonnement. Elle couvre l’analyse exploratoire, le nettoyage, l’ingénierie des caractéristiques, la classification supervisée et l’évaluation des modèles. La prédiction est intégrée à une application web via Flask et Angular.",
+        "contributions": [
+          "Analyse du comportement des clients et des abonnements pour identifier les facteurs de désabonnement.",
+          "Préparation des données par nettoyage, prétraitement et ingénierie des caractéristiques.",
+          "Entraînement et comparaison de modèles de classification : régression logistique, Random Forest et XGBoost.",
+          "Évaluation des performances et intégration du pipeline de machine learning dans une API Flask.",
+          "Connexion du service de prédiction à une interface Angular interactive."
+        ]
+      },
+      "edusmart": {
+        "subtitle": "Plateforme d’apprentissage intelligente avec Android et Flask",
+        "description": "EduSmart est une plateforme d’apprentissage intelligente combinant une application Android native et une API REST Flask. Elle permet de créer et d’organiser des cours et chapitres, de générer des résumés et des quiz, de suivre la progression et de partager des contenus éducatifs. Elle intègre l’authentification JWT, la gestion des rôles et PostgreSQL.",
+        "contributions": [
+          "Développement d’une plateforme d’apprentissage reliant une application Android à une API REST Flask.",
+          "Mise en place de la gestion des cours et des chapitres et de leur contenu structuré.",
+          "Intégration de la génération automatique de résumés et de quiz pour l’apprentissage et l’autoévaluation.",
+          "Mise en place de l’authentification et du contrôle d’accès par rôle avec JWT.",
+          "Intégration de PostgreSQL, SQLAlchemy et Supabase dans l’architecture backend.",
+          "Connexion de l’application Android aux services backend avec Retrofit."
+        ]
+      }
+    }
+  },
+  "workPage": {
+    "badge": "Mon parcours et mon portfolio",
+    "titleFirst": "Expériences",
+    "titleLast": "Projets",
+    "description": "Découvrez mes stages professionnels, mes travaux de recherche universitaire et mes projets techniques en intelligence artificielle, vision par ordinateur, machine learning et génie logiciel.",
+    "myExperience": "Mes expériences",
+    "exploreProjects": "Explorer les projets"
+  },
+  "footer": {
+    "tagline": "Génie logiciel | IA et machine learning",
+    "rights": "Tous droits réservés.",
+    "builtWith": "Conçu avec",
+    "using": "avec React et TypeScript",
+    "backToTop": "Retour en haut",
+    "contact": "Contact"
+  }
+}

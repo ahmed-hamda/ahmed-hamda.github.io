@@ -1,0 +1,350 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "headingStart": "Let's",
+    "headingAccent": "Work Together",
+    "intro": "Interested in discussing an internship opportunity, an AI project, or a potential collaboration? Feel free to reach out. I'd be happy to connect.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "locationValue": "Sfax, Tunisia",
+    "opportunityTitle": "Have an opportunity in mind?",
+    "opportunityDescription": "Let's discuss how my experience in Artificial Intelligence, Machine Learning, and Software Engineering can contribute to your team.",
+    "sendEmail": "Send Me an Email"
+  },
+  "hero": {
+    "availability": "Open to Internship Opportunities",
+    "greeting": "Hello, I'm",
+    "title": "Engineering Student in Computer Science",
+    "specialties": {
+      "ai": "Artificial Intelligence",
+      "ml": "Machine Learning",
+      "software": "Software Engineering"
+    },
+    "description": "Third-year computer science engineering student with a strong interest in software development, artificial intelligence, machine learning, and data science. I enjoy designing and building intelligent applications that combine robust software engineering with data-driven solutions.",
+    "expertise": {
+      "softwareEngineering": "Software Engineering",
+      "fullStack": "Full-Stack Development",
+      "aiMl": "AI & Machine Learning",
+      "dataScience": "Data Science"
+    },
+    "location": "Sfax, Tunisia",
+    "exploreProjects": "Explore My Projects",
+    "scrollToAbout": "Scroll to About section"
+  },
+  "about": {
+    "eyebrow": "Get to know me",
+    "headingStart": "About",
+    "headingAccent": "Me.",
+    "headlineStart": "Building software.",
+    "headlineAccent": "Creating intelligent solutions.",
+    "paragraphs": {
+      "intro": "I am a third-year Computer Science engineering student at the Higher Institute of Computer Science and Multimedia of Sfax (ISIMS), University of Sfax, Tunisia.",
+      "background": "My academic background combines Software Engineering, Artificial Intelligence and Data Science. I hold a Bachelor's degree in Computer Science, specializing in Big Data and Data Analytics, and I am currently pursuing an engineering degree in Web and Multimedia Technologies.",
+      "interests": "I enjoy developing full-stack applications, designing backend services, working with databases and building machine learning solutions. My experience includes web development, deep learning, computer vision, data processing and integrating AI models into practical applications.",
+      "motivation": "I am motivated by opportunities to solve real-world problems, explore emerging technologies and contribute to innovative software and AI-driven projects."
+    },
+    "connect": "Let's connect",
+    "educationTitle": "Education",
+    "education": {
+      "engineeringPeriod": "2024 — Present",
+      "bachelorPeriod": "2021 — 2024",
+      "engineering": {
+        "degree": "Engineering Cycle — Web and Multimedia Technologies",
+        "institution": "ISIMS — University of Sfax"
+      },
+      "bachelor": {
+        "degree": "Bachelor's Degree in Computer Science",
+        "specialization": "Big Data and Data Analytics",
+        "institution": "ISIMS — University of Sfax"
+      }
+    },
+    "highlights": {
+      "software": {
+        "title": "Software Engineering",
+        "description": "Full-stack development, REST APIs, backend services, frontend applications and software architecture."
+      },
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "Machine Learning, Deep Learning, Computer Vision, NLP and intelligent applications."
+      },
+      "data": {
+        "title": "Data Science & Engineering",
+        "description": "Data preprocessing, feature engineering, analytics, databases and data-driven solutions."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "What I work with",
+    "headingStart": "Technical",
+    "headingAccent": "Skills.",
+    "intro": "Technologies, frameworks and tools I use to build software, develop intelligent applications and work with data-driven systems.",
+    "count": "{{count}} technologies & skills",
+    "categories": {
+      "programming": {
+        "title": "Programming Languages",
+        "description": "Languages used across software, AI and embedded projects."
+      },
+      "frontend": {
+        "title": "Frontend & Mobile Development",
+        "description": "Building interactive web and mobile applications."
+      },
+      "backend": {
+        "title": "Backend & API Development",
+        "description": "Developing secure services and application backends."
+      },
+      "ai-ml": {
+        "title": "Artificial Intelligence & Machine Learning",
+        "description": "Training, evaluating and integrating intelligent models."
+      },
+      "computer-vision": {
+        "title": "Computer Vision & Signal Processing",
+        "description": "Extracting information from images and physiological signals."
+      },
+      "data": {
+        "title": "Data Science & Databases",
+        "description": "Preparing, analyzing, visualizing and storing data."
+      },
+      "iot": {
+        "title": "IoT & Embedded Systems",
+        "description": "Connecting hardware, sensors and intelligent applications."
+      },
+      "tools": {
+        "title": "Development Tools & Practices",
+        "description": "Tools and practices used throughout development."
+      }
+    }
+  },
+  "certifications": {
+    "eyebrow": "Continuous Learning",
+    "headingStart": "Certifications",
+    "headingAccent": "& Training.",
+    "intro": "Professional certifications, completed courses and training experiences reflecting my commitment to continuous learning in artificial intelligence, software engineering and technology.",
+    "types": {
+      "certification": "Professional Certification",
+      "course": "Course Completion",
+      "language": "Language Certificate",
+      "participation": "Training & Participation"
+    },
+    "viewCertificate": "View Certificate",
+    "preview": "Preview",
+    "verify": "Verify Credential",
+    "showLess": "Show Less",
+    "viewAll": "View All Certifications",
+    "closePreview": "Close certificate preview",
+    "certificate": "Certificate",
+    "fullPreview": "Full preview of {{title}}",
+    "previewLabel": "Preview {{title}}",
+    "imageAlt": "{{title}} certificate",
+    "items": {
+      "microsoft-ai-900": {
+        "date": "June 2026",
+        "description": "Foundational knowledge of artificial intelligence and Azure AI services."
+      },
+      "nvidia-genai": {
+        "date": "June 2025",
+        "description": "Training covering artificial intelligence fundamentals and generative AI."
+      },
+      "datacamp-ai-agents": {
+        "date": "June 2026",
+        "description": "Introduction to AI agents and their applications."
+      },
+      "datacamp-ai-software": {
+        "date": "June 2026",
+        "description": "Using AI concepts and tools in software engineering workflows."
+      },
+      "ef-set-c1": {
+        "date": "December 2025",
+        "description": "English proficiency assessment — C1 Advanced (66/100)."
+      },
+      "international-english-test": {
+        "date": "December 2025"
+      },
+      "spectrum-ai": {
+        "date": "Not specified",
+        "description": "Certificate of achievement for participation in an Artificial Intelligence course."
+      },
+      "spectrum-big-data": {
+        "date": "Not specified",
+        "description": "Certificate of achievement for participation in a Big Data course."
+      },
+      "web-4": {
+        "date": "December 2023"
+      },
+      "digital-marketing-ml-iot": {
+        "date": "March 2023"
+      },
+      "scrum-agile": {
+        "date": "December 2021"
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "My Journey",
+    "title": "Professional & Research Experience",
+    "intro": "A journey through professional internships and academic research, combining artificial intelligence, full-stack development, and applied machine learning.",
+    "internship": "Internship",
+    "research": "Academic Research",
+    "projectLabel": "Project",
+    "contributions": "Key Contributions",
+    "viewProject": "View Project Details",
+    "items": {
+      "novaskills": {
+        "role": "AI & Full-Stack Development Intern",
+        "period": "July – August 2026",
+        "description": "Developed ConsultDiag, an AI-powered business diagnostic and consultation platform for companies, consultants, and administrators.",
+        "highlights": [
+          "Built REST APIs and a full-stack architecture using Angular and FastAPI.",
+          "Developed versioned questionnaires, response tracking, and diagnostic scoring.",
+          "Integrated Gemini to generate and store AI-assisted diagnostic analyses.",
+          "Implemented JWT authentication, role-based access control, PostgreSQL persistence, and MinIO file storage."
+        ]
+      },
+      "mega-pixel": {
+        "role": "Full-Stack AI Development Intern",
+        "period": "July – August 2025",
+        "description": "Developed an AI-powered educational platform that processes PDF documents and images to generate learning materials.",
+        "highlights": [
+          "Developed a full-stack application using Flask and Angular.",
+          "Integrated Gemini API for AI-powered educational content processing.",
+          "Implemented automatic summary and quiz generation.",
+          "Built REST APIs, JWT authentication, and PostgreSQL and Supabase integrations."
+        ]
+      },
+      "ecg-pfe": {
+        "role": "Bachelor's Final-Year Research Project",
+        "period": "2024",
+        "description": "Designed a biometric identification system using ECG signals, machine learning, and deep learning techniques.",
+        "highlights": [
+          "Preprocessed ECG signals using filtering, R-peak detection, normalization, and segmentation.",
+          "Extracted cepstral, entropy, and zero-crossing features.",
+          "Trained and evaluated SVM and 1D-CNN models on the ECG-ID dataset.",
+          "Integrated the trained model into a Flask API and React interface."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Selected Work",
+    "title": "Featured Projects",
+    "intro": "Explore seven projects covering Computer Vision, Deep Learning, Generative AI, Machine Learning, IoT, and Software Engineering. Each project highlights the technical approach and my contributions.",
+    "featured": "Featured Project",
+    "contributions": "Key Contributions",
+    "github": "GitHub Repository",
+    "linkedin": "LinkedIn Post",
+    "galleryEmpty": "Project screenshots and demo videos will be added here.",
+    "gallery": "Media Gallery",
+    "videoUnsupported": "Your browser does not support video playback.",
+    "previousMedia": "Previous media",
+    "nextMedia": "Next media",
+    "viewMedia": "View media",
+    "categories": {
+      "Academic Project": "Academic Project",
+      "Academic Research": "Academic Research",
+      "Internship Project": "Internship Project"
+    },
+    "items": {
+      "visiontouch": {
+        "subtitle": "Real-Time Object Detection for Accessibility",
+        "description": "An AI-powered mobile accessibility solution that uses computer vision to detect objects in real time. The project combines a fine-tuned YOLOv8 model, a Flask inference API, and a Flutter mobile application.",
+        "contributions": [
+          "Prepared and annotated a custom image dataset containing 28 object classes.",
+          "Fine-tuned YOLOv8 for real-time object detection.",
+          "Developed a Flask REST API to serve model predictions.",
+          "Contributed to integrating the computer vision pipeline with the mobile application."
+        ]
+      },
+      "ecg-biometric-identification": {
+        "subtitle": "Biometric Recognition Using ECG Signals",
+        "description": "A biometric identification system based on electrocardiogram signals, combining signal processing, handcrafted feature extraction, machine learning, and deep learning. The project evaluates SVM and 1D-CNN approaches on the ECG-ID dataset.",
+        "contributions": [
+          "Preprocessed ECG signals through filtering, R-peak detection, normalization, and segmentation.",
+          "Extracted cepstral coefficients, entropy, and zero-crossing features.",
+          "Trained and evaluated SVM and 1D-CNN models.",
+          "Integrated the trained model with a Flask API and React interface."
+        ]
+      },
+      "consultdiag": {
+        "subtitle": "AI-Powered Business Diagnostic Platform",
+        "description": "A full-stack consultation and business diagnostic platform developed during an internship at NovaSkills. It provides versioned questionnaires, diagnostic scoring, consultation workflows, and AI-assisted analysis using Gemini.",
+        "contributions": [
+          "Developed the Angular frontend and FastAPI backend.",
+          "Implemented questionnaire management, response tracking, and scoring.",
+          "Integrated Gemini for AI-assisted diagnostic analysis.",
+          "Implemented authentication, role-based permissions, PostgreSQL persistence, and file storage."
+        ]
+      },
+      "iot-smart-environment": {
+        "subtitle": "Connected Environmental Monitoring and Prediction",
+        "description": "An intelligent IoT environmental monitoring system combining ESP32-based sensor acquisition, cloud data storage, backend APIs, and machine learning. The platform collects environmental measurements, integrates weather information, and uses predictive models to estimate rainfall conditions. A Flutter mobile application provides access to monitoring features and notifications.",
+        "contributions": [
+          "Configured ESP32 hardware and environmental sensors for temperature, humidity, rainfall, and air-quality measurements.",
+          "Developed backend services for processing sensor readings and integrating external weather data.",
+          "Implemented a machine learning pipeline for rainfall prediction using Scikit-learn and hyperparameter optimization with GridSearchCV.",
+          "Integrated Supabase and PostgreSQL for environmental data storage and retrieval."
+        ]
+      },
+      "ai-educational-platform": {
+        "subtitle": "Generative AI for Educational Content",
+        "description": "A full-stack educational platform developed during an internship at MEGA PIXEL. It uses Gemini to process uploaded PDF documents and images and automatically generate educational summaries and quizzes.",
+        "contributions": [
+          "Developed the application using Flask and Angular.",
+          "Integrated Gemini API for educational content processing.",
+          "Implemented automatic summary and quiz generation.",
+          "Developed REST APIs, JWT authentication, and database and file-storage integration."
+        ]
+      },
+      "customer-churn-prediction": {
+        "subtitle": "Predictive Analytics Using Machine Learning",
+        "description": "An end-to-end machine learning solution designed to identify customers at risk of churn using behavioral and subscription data. The project covers exploratory data analysis, data cleaning, feature engineering, supervised classification, and model evaluation. The predictive functionality is integrated into a web application through a Flask REST API and an Angular frontend.",
+        "contributions": [
+          "Explored customer behavior and subscription attributes to identify potential churn indicators.",
+          "Prepared the dataset through data cleaning, preprocessing, and feature engineering.",
+          "Trained and compared supervised classification models, including Logistic Regression, Random Forest, and XGBoost.",
+          "Evaluated predictive performance and integrated the machine learning workflow into a Flask-based API.",
+          "Connected the prediction service to an Angular frontend for interactive use."
+        ]
+      },
+      "edusmart": {
+        "subtitle": "Smart Learning Platform with Android & Flask",
+        "description": "EduSmart is a smart learning platform combining a native Android application with a Flask REST API. It enables users to create and organize courses and chapters, automatically generate educational summaries and quizzes, track learning progress, and share educational content. The platform features JWT-based authentication, role-based access control, and PostgreSQL-backed data management.",
+        "contributions": [
+          "Developed a smart learning platform connecting an Android mobile application to a Flask REST API.",
+          "Implemented course and chapter management with structured educational content.",
+          "Integrated automatic summary and quiz generation for personalized learning and self-assessment.",
+          "Implemented user authentication and role-based access control using JWT.",
+          "Integrated PostgreSQL, SQLAlchemy, and Supabase storage into the backend architecture.",
+          "Connected the Android application to backend services using Retrofit."
+        ]
+      }
+    }
+  },
+  "workPage": {
+    "badge": "My Journey & Portfolio",
+    "titleFirst": "Experience",
+    "titleLast": "Projects",
+    "description": "Explore my professional internships, academic research, and technical projects in Artificial Intelligence, Computer Vision, Machine Learning, and Software Engineering.",
+    "myExperience": "My Experience",
+    "exploreProjects": "Explore Projects"
+  },
+  "footer": {
+    "tagline": "Software Engineering | AI & Machine Learning",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with",
+    "using": "using React & TypeScript",
+    "backToTop": "Back to top",
+    "contact": "Contact"
+  }
+}
