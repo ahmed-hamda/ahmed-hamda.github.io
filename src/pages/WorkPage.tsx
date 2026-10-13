@@ -11,7 +11,7 @@ function WorkPage() {
   const { t } = useTranslation()
 
   const scrollToSection = (sectionId: 'experience' | 'projects') => {
-    const targetUrl = `/work?section=${sectionId}`
+    const targetUrl = `/?section=${sectionId}`
     if (window.location.hash === `#${targetUrl}`) {
       document.getElementById(sectionId)?.scrollIntoView({
         behavior: 'smooth',
@@ -37,11 +37,11 @@ function WorkPage() {
             {t('workPage.badge')}
           </span>
 
-          <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+          <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             {t('workPage.titleFirst')}{' '}
             <span className="text-blue-400">&amp;</span>{' '}
             {t('workPage.titleLast')}
-          </h1>
+          </h2>
 
           <p className="max-w-3xl text-lg leading-relaxed text-slate-400">
             {t('workPage.description')}

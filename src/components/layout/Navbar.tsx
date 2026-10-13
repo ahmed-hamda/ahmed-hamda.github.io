@@ -19,17 +19,17 @@ const navigation = [
   },
   {
     labelKey: 'nav.experience',
-    path: '/work',
+    path: '/',
     section: 'experience',
   },
   {
     labelKey: 'nav.projects',
-    path: '/work',
+    path: '/',
     section: 'projects',
   },
   {
     labelKey: 'nav.contact',
-    path: '/contact',
+    path: '/',
     section: 'contact',
   },
 ]
@@ -61,23 +61,14 @@ export default function Navbar() {
   // Scroll to the requested section after navigation.
   useEffect(() => {
     const params = new URLSearchParams(location.search)
-    const section = params.get('section')
+    const section = params.get('section') ?? (location.pathname === '/work' ? 'experience' : location.pathname === '/contact' ? 'contact' : null)
 
     if (!section) {
       window.scrollTo({ top: 0, behavior: 'smooth' })
 
-      setActiveSection(
-        location.pathname === '/work'
-          ? 'experience'
-          : location.pathname === '/contact'
-            ? 'contact'
-            : 'home'
-      )
 
       return
     }
-
-    setActiveSection(section)
 
     const frame = requestAnimationFrame(() => {
       const element = document.getElementById(section)
@@ -93,17 +84,34 @@ export default function Navbar() {
     return () => cancelAnimationFrame(frame)
   }, [location.pathname, location.search])
 
+  // Keep the menu aligned with the section visible while scrolling.
+  useEffect(() => {
+    let frame = 0
+    const updateActiveSection = () => {
+      cancelAnimationFrame(frame)
+      frame = requestAnimationFrame(() => {
+        const current = [...navigation].reverse().find(item => {
+          const element = document.getElementById(item.section)
+          return element && element.getBoundingClientRect().top <= 140
+        })
+        setActiveSection(current?.section ?? 'home')
+      })
+    }
+    window.addEventListener('scroll', updateActiveSection, { passive: true })
+    updateActiveSection()
+    return () => {
+      window.removeEventListener('scroll', updateActiveSection)
+      cancelAnimationFrame(frame)
+    }
+  }, [])
+
   const handleNavigation = (path: string, section: string) => {
     setIsOpen(false)
     setActiveSection(section)
 
-    // Contact is a standalone page.
-    const destination =
-      section === 'home'
-        ? '/'
-        : section === 'contact'
-          ? '/contact'
-          : `${path}?section=${encodeURIComponent(section)}`
+    const destination = section === 'home'
+      ? '/'
+      : `${path}?section=${encodeURIComponent(section)}`
 
     const currentDestination =
       `${location.pathname}${location.search}`
@@ -128,8 +136,7 @@ export default function Navbar() {
 
   const isActive = (path: string, section: string) => {
     return (
-      location.pathname === path &&
-      activeSection === section
+      path === '/' && activeSection === section
     )
   }
 
@@ -238,7 +245,7 @@ export default function Navbar() {
             }
             className="rounded-lg p-2 text-white transition hover:bg-white/10"
             aria-label={
-              isOpen ? 'Close menu' : 'Open menu'
+              isOpen ? t('nav.closeMenu') : t('nav.openMenu')
             }
             aria-expanded={isOpen}
             aria-controls="mobile-navigation"

@@ -22,6 +22,12 @@ import {
   type CredentialType,
 } from '../../data/certifications'
 
+const visibleCertifications = featuredCertifications.slice(0, 3)
+const remainingCertifications = [
+  ...featuredCertifications.slice(3),
+  ...additionalCertifications,
+]
+
 const credentialConfig: Record<
   CredentialType,
   { labelKey: string; icon: LucideIcon }
@@ -287,7 +293,7 @@ export default function Certifications() {
 
         {/* Featured certificates */}
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {featuredCertifications.map((certification, index) => (
+          {visibleCertifications.map((certification, index) => (
             <motion.div
               key={certification.id}
               initial={{ opacity: 0, y: 30 }}
@@ -307,9 +313,35 @@ export default function Certifications() {
         </div>
 
         {/* Additional certificates */}
-        {additionalCertifications.length > 0 && (
-          <div className="mt-12">
-            <div className="flex justify-center">
+        {remainingCertifications.length > 0 && (
+          <div>
+
+
+            <AnimatePresence initial={false}>
+              {showAll && (
+                <motion.div
+                  id="additional-certifications"
+                  key="additional-certifications"
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.35 }}
+                  className="overflow-hidden"
+                >
+                  <div className="grid gap-6 pt-8 md:grid-cols-2 xl:grid-cols-3">
+                    {remainingCertifications.map((certification) => (
+                      <CertificationCard
+                        key={certification.id}
+                        certification={certification}
+                        onPreview={setSelectedCertificate}
+                      />
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            <div className="mt-12 flex justify-center">
               <button
                 type="button"
                 onClick={() => setShowAll((current) => !current)}
@@ -327,30 +359,6 @@ export default function Certifications() {
                 />
               </button>
             </div>
-
-            <AnimatePresence initial={false}>
-              {showAll && (
-                <motion.div
-                  id="additional-certifications"
-                  key="additional-certifications"
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: 'auto' }}
-                  exit={{ opacity: 0, height: 0 }}
-                  transition={{ duration: 0.35 }}
-                  className="overflow-hidden"
-                >
-                  <div className="grid gap-6 pt-8 md:grid-cols-2 xl:grid-cols-3">
-                    {additionalCertifications.map((certification) => (
-                      <CertificationCard
-                        key={certification.id}
-                        certification={certification}
-                        onPreview={setSelectedCertificate}
-                      />
-                    ))}
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
           </div>
         )}
       </div>

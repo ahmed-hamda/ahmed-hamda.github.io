@@ -36,7 +36,7 @@ export default function About() {
             {(['intro', 'background', 'interests', 'motivation'] as const).map((key, index) => (
               <p key={key} className={`${index === 0 ? 'mt-6' : 'mt-5'} leading-8 text-slate-400`}>{t(`about.paragraphs.${key}`)}</p>
             ))}
-            <Link to="/contact" className="mt-8 inline-flex items-center gap-2 font-semibold text-blue-400 transition hover:text-blue-300">
+            <Link to="/?section=contact" className="mt-8 inline-flex items-center gap-2 font-semibold text-blue-400 transition hover:text-blue-300">
               {t('about.connect')}<ArrowUpRight size={18} />
             </Link>
 

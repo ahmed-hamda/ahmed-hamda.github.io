@@ -52,7 +52,8 @@ export default function Footer() {
               <FaLinkedin size={20} />
             </a>
             <Link
-              to="/contact"
+              to="/?section=contact"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
               aria-label={t('footer.contact')}
               className="text-slate-400 transition hover:text-blue-400"
             >

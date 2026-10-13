@@ -3,10 +3,6 @@ import Contact from '../components/sections/Contact'
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
-      <div className="pt-16">
-        <Contact />
-      </div>
-    </div>
+    <Contact />
   )
 }

@@ -7,7 +7,9 @@
     "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download My CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "contact": {
     "eyebrow": "Get In Touch",
@@ -27,7 +29,7 @@
   "hero": {
     "availability": "Open to Internship Opportunities",
     "greeting": "Hello, I'm",
-    "title": "Engineering Student in Computer Science",
+    "title": "Computer Science Engineering Student",
     "specialties": {
       "ai": "Artificial Intelligence",
       "ml": "Machine Learning",
@@ -47,7 +49,7 @@
   "about": {
     "eyebrow": "Get to know me",
     "headingStart": "About",
-    "headingAccent": "Me.",
+    "headingAccent": "Me",
     "headlineStart": "Building software.",
     "headlineAccent": "Creating intelligent solutions.",
     "paragraphs": {
@@ -62,7 +64,7 @@
       "engineeringPeriod": "2024 — Present",
       "bachelorPeriod": "2021 — 2024",
       "engineering": {
-        "degree": "Engineering Cycle — Web and Multimedia Technologies",
+        "degree": "Engineering Degree — Web and Multimedia Technologies",
         "institution": "ISIMS — University of Sfax"
       },
       "bachelor": {
@@ -87,9 +89,11 @@
     }
   },
   "skills": {
+    "showMore": "Show more skills",
+    "showLess": "Show less",
     "eyebrow": "What I work with",
     "headingStart": "Technical",
-    "headingAccent": "Skills.",
+    "headingAccent": "Skills",
     "intro": "Technologies, frameworks and tools I use to build software, develop intelligent applications and work with data-driven systems.",
     "count": "{{count}} technologies & skills",
     "categories": {
@@ -130,18 +134,18 @@
   "certifications": {
     "eyebrow": "Continuous Learning",
     "headingStart": "Certifications",
-    "headingAccent": "& Training.",
+    "headingAccent": "& Training",
     "intro": "Professional certifications, completed courses and training experiences reflecting my commitment to continuous learning in artificial intelligence, software engineering and technology.",
     "types": {
       "certification": "Professional Certification",
       "course": "Course Completion",
       "language": "Language Certificate",
-      "participation": "Training & Participation"
+      "participation": "Certificate of Participation"
     },
     "viewCertificate": "View Certificate",
-    "preview": "Preview",
+    "preview": "Enlarge Certificate",
     "verify": "Verify Credential",
-    "showLess": "Show Less",
+    "showLess": "Show less",
     "viewAll": "View All Certifications",
     "closePreview": "Close certificate preview",
     "certificate": "Certificate",
@@ -193,7 +197,7 @@
   },
   "experience": {
     "eyebrow": "My Journey",
-    "title": "Professional & Research Experience",
+    "title": "Internships & Academic Research",
     "intro": "A journey through professional internships and academic research, combining artificial intelligence, full-stack development, and applied machine learning.",
     "internship": "Internship",
     "research": "Academic Research",
@@ -237,15 +241,15 @@
     }
   },
   "projects": {
-    "eyebrow": "Selected Work",
-    "title": "Featured Projects",
+    "eyebrow": "Projects",
+    "title": "My AI & Software Engineering Projects",
     "intro": "Explore seven projects covering Computer Vision, Deep Learning, Generative AI, Machine Learning, IoT, and Software Engineering. Each project highlights the technical approach and my contributions.",
     "featured": "Featured Project",
     "contributions": "Key Contributions",
     "github": "GitHub Repository",
     "linkedin": "LinkedIn Post",
     "galleryEmpty": "Project screenshots and demo videos will be added here.",
-    "gallery": "Media Gallery",
+    "gallery": "Images & Demos",
     "videoUnsupported": "Your browser does not support video playback.",
     "previousMedia": "Previous media",
     "nextMedia": "Next media",
@@ -257,6 +261,7 @@
     },
     "items": {
       "visiontouch": {
+        "title": "VisionTouch",
         "subtitle": "Real-Time Object Detection for Accessibility",
         "description": "An AI-powered mobile accessibility solution that uses computer vision to detect objects in real time. The project combines a fine-tuned YOLOv8 model, a Flask inference API, and a Flutter mobile application.",
         "contributions": [
@@ -267,6 +272,7 @@
         ]
       },
       "ecg-biometric-identification": {
+        "title": "ECG Biometric Identification",
         "subtitle": "Biometric Recognition Using ECG Signals",
         "description": "A biometric identification system based on electrocardiogram signals, combining signal processing, handcrafted feature extraction, machine learning, and deep learning. The project evaluates SVM and 1D-CNN approaches on the ECG-ID dataset.",
         "contributions": [
@@ -277,6 +283,7 @@
         ]
       },
       "consultdiag": {
+        "title": "ConsultDiag",
         "subtitle": "AI-Powered Business Diagnostic Platform",
         "description": "A full-stack consultation and business diagnostic platform developed during an internship at NovaSkills. It provides versioned questionnaires, diagnostic scoring, consultation workflows, and AI-assisted analysis using Gemini.",
         "contributions": [
@@ -287,6 +294,7 @@
         ]
       },
       "iot-smart-environment": {
+        "title": "Connected Environmental Monitoring",
         "subtitle": "Connected Environmental Monitoring and Prediction",
         "description": "An intelligent IoT environmental monitoring system combining ESP32-based sensor acquisition, cloud data storage, backend APIs, and machine learning. The platform collects environmental measurements, integrates weather information, and uses predictive models to estimate rainfall conditions. A Flutter mobile application provides access to monitoring features and notifications.",
         "contributions": [
@@ -297,6 +305,7 @@
         ]
       },
       "ai-educational-platform": {
+        "title": "AI-Powered Educational Platform",
         "subtitle": "Generative AI for Educational Content",
         "description": "A full-stack educational platform developed during an internship at MEGA PIXEL. It uses Gemini to process uploaded PDF documents and images and automatically generate educational summaries and quizzes.",
         "contributions": [
@@ -307,6 +316,7 @@
         ]
       },
       "customer-churn-prediction": {
+        "title": "Customer Churn Prediction",
         "subtitle": "Predictive Analytics Using Machine Learning",
         "description": "An end-to-end machine learning solution designed to identify customers at risk of churn using behavioral and subscription data. The project covers exploratory data analysis, data cleaning, feature engineering, supervised classification, and model evaluation. The predictive functionality is integrated into a web application through a Flask REST API and an Angular frontend.",
         "contributions": [
@@ -318,6 +328,7 @@
         ]
       },
       "edusmart": {
+        "title": "EduSmart",
         "subtitle": "Smart Learning Platform with Android & Flask",
         "description": "EduSmart is a smart learning platform combining a native Android application with a Flask REST API. It enables users to create and organize courses and chapters, automatically generate educational summaries and quizzes, track learning progress, and share educational content. The platform features JWT-based authentication, role-based access control, and PostgreSQL-backed data management.",
         "contributions": [
@@ -332,7 +343,7 @@
     }
   },
   "workPage": {
-    "badge": "My Journey & Portfolio",
+    "badge": "Skills in Practice",
     "titleFirst": "Experience",
     "titleLast": "Projects",
     "description": "Explore my professional internships, academic research, and technical projects in Artificial Intelligence, Computer Vision, Machine Learning, and Software Engineering.",
@@ -343,7 +354,7 @@
     "tagline": "Software Engineering | AI & Machine Learning",
     "rights": "All rights reserved.",
     "builtWith": "Built with",
-    "using": "using React & TypeScript",
+    "using": "and developed with React & TypeScript",
     "backToTop": "Back to top",
     "contact": "Contact"
   }

@@ -280,7 +280,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 
           <h3 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
 
-            {project.title}
+            {t(`${itemKey}.title`)}
 
           </h3>
 

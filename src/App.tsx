@@ -1,5 +1,5 @@
 
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { MotionConfig } from 'motion/react'
 
 import Navbar from './components/layout/Navbar'
@@ -17,13 +17,11 @@ function App() {
           {/* Shared navigation */}
           <Navbar />
 
-          {/* Application pages */}
+          {/* All sections share one continuous page. */}
           <main>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/work" element={<WorkPage />} />
-              <Route path="/contact" element={<ContactPage />} />
-            </Routes>
+            <HomePage />
+            <WorkPage />
+            <ContactPage />
           </main>
 
           {/* Shared footer */}

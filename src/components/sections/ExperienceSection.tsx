@@ -8,7 +8,7 @@ export default function ExperienceSection() {
   const { t } = useTranslation()
   const navigate = useNavigate()
   const handleViewProject = (projectId: string) => {
-    navigate(`/work?section=${encodeURIComponent(projectId)}`)
+    navigate(`/?section=${encodeURIComponent(projectId)}`)
   }
   return (
     <section id="experience" className="scroll-mt-24 border-t border-slate-800/60 px-6 py-24 sm:px-10 lg:px-16">
@@ -37,7 +37,7 @@ export default function ExperienceSection() {
                     </div>
                     <div className="flex items-center gap-2 text-sm text-slate-400"><CalendarDays size={16} /><span>{t(`${itemKey}.period`)}</span></div>
                   </div>
-                  <div className="mb-5 flex items-start gap-2 text-sm text-slate-300"><MapPin size={17} className="mt-0.5 shrink-0 text-blue-400"/><span>{t('experience.projectLabel')}: <strong>{experience.project}</strong></span></div>
+                  <div className="mb-5 flex items-start gap-2 text-sm text-slate-300"><MapPin size={17} className="mt-0.5 shrink-0 text-blue-400"/><span>{t('experience.projectLabel')}: <strong>{t(`projects.items.${experience.projectId}.title`)}</strong></span></div>
                   <p className="mb-6 leading-relaxed text-slate-400">{t(`${itemKey}.description`)}</p>
                   <h4 className="mb-3 text-sm font-semibold text-slate-200">{t('experience.contributions')}</h4>
                   <ul className="mb-7 space-y-3">{highlights.map((highlight, i) => <li key={i} className="flex items-start gap-3 text-sm leading-relaxed text-slate-400"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-400"/><span>{highlight}</span></li>)}</ul>

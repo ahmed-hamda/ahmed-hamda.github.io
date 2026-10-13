@@ -7,7 +7,9 @@
     "experience": "Expériences",
     "projects": "Projets",
     "contact": "Contact",
-    "downloadCV": "Télécharger CV"
+    "downloadCV": "Télécharger mon CV",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
   },
   "contact": {
     "eyebrow": "Restons en contact",
@@ -30,14 +32,14 @@
     "title": "Élève ingénieur en informatique",
     "specialties": {
       "ai": "Intelligence artificielle",
-      "ml": "Machine Learning",
+      "ml": "Machine learning",
       "software": "Génie logiciel"
     },
     "description": "Élève ingénieur en troisième année d’informatique, je m’intéresse particulièrement au développement logiciel, à l’intelligence artificielle, au machine learning et à la science des données. J’aime concevoir et développer des applications intelligentes alliant une ingénierie logicielle robuste à des solutions fondées sur les données.",
     "expertise": {
       "softwareEngineering": "Génie logiciel",
       "fullStack": "Développement full-stack",
-      "aiMl": "IA et Machine Learning",
+      "aiMl": "IA et machine learning",
       "dataScience": "Science des données"
     },
     "location": "Sfax, Tunisie",
@@ -47,7 +49,7 @@
   "about": {
     "eyebrow": "Faisons connaissance",
     "headingStart": "À propos de",
-    "headingAccent": "moi.",
+    "headingAccent": "moi",
     "headlineStart": "Développer des logiciels.",
     "headlineAccent": "Créer des solutions intelligentes.",
     "paragraphs": {
@@ -87,9 +89,11 @@
     }
   },
   "skills": {
+    "showMore": "Voir plus de compétences",
+    "showLess": "Voir moins",
     "eyebrow": "Mes outils et technologies",
     "headingStart": "Compétences",
-    "headingAccent": "techniques.",
+    "headingAccent": "techniques",
     "intro": "Technologies, frameworks et outils que j’utilise pour développer des logiciels, concevoir des applications intelligentes et travailler sur des systèmes fondés sur les données.",
     "count": "{{count}} technologies et compétences",
     "categories": {
@@ -130,16 +134,16 @@
   "certifications": {
     "eyebrow": "Apprentissage continu",
     "headingStart": "Certifications",
-    "headingAccent": "et formations.",
+    "headingAccent": "et formations",
     "intro": "Certifications professionnelles, cours et formations témoignant de mon engagement envers l’apprentissage continu en intelligence artificielle, en génie logiciel et en technologie.",
     "types": {
       "certification": "Certification professionnelle",
       "course": "Formation suivie",
       "language": "Certification linguistique",
-      "participation": "Formation et participation"
+      "participation": "Attestation de participation"
     },
     "viewCertificate": "Voir le certificat",
-    "preview": "Aperçu",
+    "preview": "Agrandir le certificat",
     "verify": "Vérifier la certification",
     "showLess": "Voir moins",
     "viewAll": "Voir toutes les certifications",
@@ -193,7 +197,7 @@
   },
   "experience": {
     "eyebrow": "Mon parcours",
-    "title": "Expériences professionnelles et de recherche",
+    "title": "Stages et recherche universitaire",
     "intro": "Un parcours mêlant stages professionnels et recherche universitaire, à la croisée de l’intelligence artificielle, du développement full-stack et du machine learning appliqué.",
     "internship": "Stage",
     "research": "Recherche universitaire",
@@ -238,14 +242,14 @@
   },
   "projects": {
     "eyebrow": "Réalisations",
-    "title": "Projets à découvrir",
+    "title": "Mes projets en IA et génie logiciel",
     "intro": "Découvrez sept projets en vision par ordinateur, deep learning, IA générative, machine learning, IoT et génie logiciel. Chaque projet présente l’approche technique et mes contributions.",
-    "featured": "Projet à la une",
+    "featured": "Projet mis en avant",
     "contributions": "Principales contributions",
     "github": "Dépôt GitHub",
     "linkedin": "Publication LinkedIn",
     "galleryEmpty": "Des captures d’écran et des vidéos de démonstration seront ajoutées ici.",
-    "gallery": "Galerie multimédia",
+    "gallery": "Images et démonstrations",
     "videoUnsupported": "Votre navigateur ne prend pas en charge la lecture vidéo.",
     "previousMedia": "Média précédent",
     "nextMedia": "Média suivant",
@@ -257,6 +261,7 @@
     },
     "items": {
       "visiontouch": {
+        "title": "VisionTouch",
         "subtitle": "Détection d’objets en temps réel pour l’accessibilité",
         "description": "Une solution mobile d’accessibilité fondée sur l’IA, utilisant la vision par ordinateur pour détecter des objets en temps réel. Le projet associe un modèle YOLOv8 affiné, une API d’inférence Flask et une application mobile Flutter.",
         "contributions": [
@@ -267,6 +272,7 @@
         ]
       },
       "ecg-biometric-identification": {
+        "title": "Identification biométrique par ECG",
         "subtitle": "Reconnaissance biométrique à partir des signaux ECG",
         "description": "Un système d’identification biométrique fondé sur les signaux électrocardiographiques, combinant traitement du signal, extraction de caractéristiques, machine learning et deep learning. Les approches SVM et CNN 1D sont évaluées sur le jeu de données ECG-ID.",
         "contributions": [
@@ -277,6 +283,7 @@
         ]
       },
       "consultdiag": {
+        "title": "ConsultDiag",
         "subtitle": "Plateforme intelligente de diagnostic d’entreprise",
         "description": "Une plateforme full-stack de consultation et de diagnostic d’entreprise développée lors d’un stage chez NovaSkills. Elle propose des questionnaires versionnés, un système de notation, des processus de consultation et des analyses assistées par Gemini.",
         "contributions": [
@@ -287,6 +294,7 @@
         ]
       },
       "iot-smart-environment": {
+        "title": "Surveillance environnementale connectée",
         "subtitle": "Surveillance et prédiction environnementales connectées",
         "description": "Un système intelligent de surveillance environnementale IoT associant acquisition de données par capteurs ESP32, stockage cloud, API backend et machine learning. La plateforme collecte des mesures, intègre des données météorologiques et prédit les conditions de pluie. Une application Flutter permet la consultation et les notifications.",
         "contributions": [
@@ -297,6 +305,7 @@
         ]
       },
       "ai-educational-platform": {
+        "title": "Plateforme éducative assistée par IA",
         "subtitle": "IA générative appliquée aux contenus éducatifs",
         "description": "Une plateforme éducative full-stack développée lors d’un stage chez MEGA PIXEL. Elle utilise Gemini pour traiter des documents PDF et des images importés, puis générer automatiquement des résumés pédagogiques et des quiz.",
         "contributions": [
@@ -307,6 +316,7 @@
         ]
       },
       "customer-churn-prediction": {
+        "title": "Prédiction du désabonnement client",
         "subtitle": "Analyse prédictive par machine learning",
         "description": "Une solution complète de machine learning permettant d’identifier les clients susceptibles de se désabonner à partir de données comportementales et d’abonnement. Elle couvre l’analyse exploratoire, le nettoyage, l’ingénierie des caractéristiques, la classification supervisée et l’évaluation des modèles. La prédiction est intégrée à une application web via Flask et Angular.",
         "contributions": [
@@ -318,6 +328,7 @@
         ]
       },
       "edusmart": {
+        "title": "EduSmart",
         "subtitle": "Plateforme d’apprentissage intelligente avec Android et Flask",
         "description": "EduSmart est une plateforme d’apprentissage intelligente combinant une application Android native et une API REST Flask. Elle permet de créer et d’organiser des cours et chapitres, de générer des résumés et des quiz, de suivre la progression et de partager des contenus éducatifs. Elle intègre l’authentification JWT, la gestion des rôles et PostgreSQL.",
         "contributions": [
@@ -332,18 +343,18 @@
     }
   },
   "workPage": {
-    "badge": "Mon parcours et mon portfolio",
+    "badge": "Mise en pratique",
     "titleFirst": "Expériences",
     "titleLast": "Projets",
     "description": "Découvrez mes stages professionnels, mes travaux de recherche universitaire et mes projets techniques en intelligence artificielle, vision par ordinateur, machine learning et génie logiciel.",
     "myExperience": "Mes expériences",
-    "exploreProjects": "Explorer les projets"
+    "exploreProjects": "Découvrir mes projets"
   },
   "footer": {
     "tagline": "Génie logiciel | IA et machine learning",
     "rights": "Tous droits réservés.",
     "builtWith": "Conçu avec",
-    "using": "avec React et TypeScript",
+    "using": "et développé avec React et TypeScript",
     "backToTop": "Retour en haut",
     "contact": "Contact"
   }

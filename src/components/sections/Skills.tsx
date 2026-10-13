@@ -1,6 +1,7 @@
+import { useState } from 'react'
 import { motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
-import { ArrowUpRight, BrainCircuit, Code2, Cpu, Database, MonitorSmartphone, ScanEye, Server, Wrench, type LucideIcon } from 'lucide-react'
+import { ArrowUpRight, BrainCircuit, ChevronDown, Code2, Cpu, Database, MonitorSmartphone, ScanEye, Server, Wrench, type LucideIcon } from 'lucide-react'
 import { skillCategories } from '../../data/skills'
 
 const iconMap: Record<string, LucideIcon> = {
@@ -11,6 +12,8 @@ const iconMap: Record<string, LucideIcon> = {
 
 export default function Skills() {
   const { t } = useTranslation()
+  const [showAll, setShowAll] = useState(false)
+  const visibleCategories = showAll ? skillCategories : skillCategories.slice(0, 6)
   return (
     <section id="skills" className="relative scroll-mt-20 bg-slate-950 px-6 py-24 lg:px-8">
       <div className="mx-auto max-w-7xl">
@@ -20,8 +23,8 @@ export default function Skills() {
           <div className="mt-5 h-1 w-20 rounded-full bg-blue-500" />
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-400">{t('skills.intro')}</p>
         </motion.div>
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {skillCategories.map((category, index) => {
+        <div id="skills-categories" className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {visibleCategories.map((category, index) => {
             const Icon = iconMap[category.icon] ?? Code2
             return (
               <motion.div key={category.id} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.5, delay: Math.min(index % 3, 2) * 0.1 }} className="group flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/60 p-6 transition-colors duration-300 hover:border-blue-500/40 hover:bg-slate-900">
@@ -43,6 +46,20 @@ export default function Skills() {
             )
           })}
         </div>
+        {skillCategories.length > 6 && (
+          <div className="mt-12 flex justify-center">
+            <button
+              type="button"
+              onClick={() => setShowAll(current => !current)}
+              aria-expanded={showAll}
+              aria-controls="skills-categories"
+              className="inline-flex items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-500/10 px-6 py-3 font-medium text-blue-300 transition-colors hover:border-blue-400/60 hover:bg-blue-500/20"
+            >
+              {showAll ? t('skills.showLess') : t('skills.showMore')}
+              <ChevronDown size={18} className={`transition-transform duration-300 ${showAll ? 'rotate-180' : ''}`} />
+            </button>
+          </div>
+        )}
       </div>
     </section>
   )

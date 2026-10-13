@@ -56,7 +56,7 @@ export default function Hero() {
           </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
-            <button type="button" onClick={() => navigate('/work?section=projects')} className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-blue-500">
+            <button type="button" onClick={() => navigate('/?section=projects')} className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-blue-500">
               {t('hero.exploreProjects')}<ArrowRight size={18} />
             </button>
             <a href={cvUrl} download={cvFilename} className="inline-flex items-center gap-2 rounded-xl border border-white/20 px-6 py-3 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-blue-400 hover:text-blue-400">
